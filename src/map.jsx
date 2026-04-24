@@ -167,10 +167,25 @@ export default function Map() {
                 flex: 1,
               }}
             >
-              <div style={{ display: 'flex', gap: '8px' }}>
-                <img src={infoLocalidades[activeLocalidad].imagen1} style={{ width: '50%', objectFit: 'cover' }} />
-                <img src={infoLocalidades[activeLocalidad].imagen2} style={{ width: '50%', objectFit: 'cover' }} />
-              </div>
+              {activeLocalidad && infoLocalidades[activeLocalidad] && (
+  <div style={{ display: 'flex', gap: '8px' }}>
+    
+    {infoLocalidades[activeLocalidad].imagen1 && (
+      <img 
+        src={infoLocalidades[activeLocalidad].imagen1} 
+        style={{ width: '50%', objectFit: 'cover' }} 
+      />
+    )}
+
+    {infoLocalidades[activeLocalidad].imagen2 && (
+      <img 
+        src={infoLocalidades[activeLocalidad].imagen2} 
+        style={{ width: '50%', objectFit: 'cover' }} 
+      />
+    )}
+
+  </div>
+)}
               <p>{infoLocalidades[activeLocalidad].texto}</p>
             </div>
           </div>
