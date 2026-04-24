@@ -73,7 +73,7 @@ export default function Map() {
   };
 
   useEffect(() => {
-    fetch('/bta_localidades.json')
+    fetch(`${import.meta.env.BASE_URL}bta_localidades.json`)
       .then(res => res.json())
       .then(data => {
         const geojson = feature(data, data.objects.bta_localidades);
