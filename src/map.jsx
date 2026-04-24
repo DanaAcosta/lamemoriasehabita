@@ -168,23 +168,10 @@ export default function Map() {
               }}
             >
               {activeLocalidad && infoLocalidades[activeLocalidad] && (
-  <div style={{ display: 'flex', gap: '8px' }}>
-    
-    {infoLocalidades[activeLocalidad].imagen1 && (
-      <img 
-        src={infoLocalidades[activeLocalidad].imagen1} 
-        style={{ width: '50%', objectFit: 'cover' }} 
-      />
-    )}
-
-    {infoLocalidades[activeLocalidad].imagen2 && (
-      <img 
-        src={infoLocalidades[activeLocalidad].imagen2} 
-        style={{ width: '50%', objectFit: 'cover' }} 
-      />
-    )}
-
+    <div>
+    <img src="/lamemoriasehabita/suba.jpeg" style={{ width: "300px" }} />
   </div>
+
 )}
               <p>{infoLocalidades[activeLocalidad].texto}</p>
             </div>
