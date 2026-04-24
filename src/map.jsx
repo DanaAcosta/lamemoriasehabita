@@ -51,13 +51,13 @@ export default function Map() {
     "suba": {
       titulo: "Suba",
       texto: "Suba es una localidad marcada por la historia de los pueblos indígenas que le dieron nombre y sentido. Su identidad está profundamente ligada al agua: humedales, quebradas y lagunas que han sido fuente de vida y memoria para generaciones.\n \n La Silla de la Memoria de Suba busca honrar esa raíz ancestral y ecológica. Diseñada como un punto de encuentro, combina elementos gráficos inspirados en símbolos indígenas con materiales que evocan la relación con el agua. \n \n Este proyecto se alinea con el POT Bogotá Reverdece 2022–2035, que plantea la creación de “Ciudades de 15 minutos”. La silla ofrece confort y vitalidad urbana en el mismo territorio, sin necesidad de desplazarse al centro. Además, responde a la Estructura Ecológica Principal, fortaleciendo la conexión entre habitantes y naturaleza, y visibilizando la importancia de los humedales como patrimonio ambiental y cultural. \n \n Más que un objeto, la silla es un símbolo: un espacio para descansar, recordar y reconocerse en la diversidad de Bogotá. Con ella, Suba se convierte en el primer capítulo de una red de mobiliario urbano que activa la memoria y el sentido de pertenencia en cada localidad.",
-      imagen1: "/suba.jpeg",
-      imagen2: "/subaFigura.jpeg",
+      imagen1: `${import.meta.env.BASE_URL}suba.jpeg`,
+  imagen2: `${import.meta.env.BASE_URL}subaFigura.jpeg`,
     },
     "candelaria": {
       titulo: "La Candelaria",
       texto: "La Candelaria es el corazón histórico de Bogotá, un lugar donde la arquitectura colonial y los relatos de la ciudad conviven con la vida diaria de sus habitantes. Según el Estudio de Percepción y Satisfacción del IDT (2025), mientras el 90% de los turistas se declaran satisfechos con su visita, los residentes locales expresan una pérdida de identidad y reclaman mobiliario que no sea únicamente escenográfico, sino funcional y pensado para su cotidianidad. \n \n La Silla de la Memoria de La Candelaria responde a esa necesidad: un mobiliario urbano que ofrece descanso y encuentro, pero también activa la memoria de quienes han marcado la historia del barrio. Inspirada en la tradición de los esmeralderos, que durante décadas hicieron de La Candelaria un epicentro de comercio, resistencia y cultura popular, la silla incorpora símbolos gráficos alusivos a la piedra verde y a la fuerza de quienes la trabajaron. A través de códigos QR, los visitantes pueden acceder a relatos digitales que narran la vida de los esmeralderos, las dinámicas de las plazas y las historias de quienes han habitado este territorio. \n \n Más que un objeto decorativo, la silla es un puente entre turismo y vida local: un espacio que permite al visitante conocer la riqueza cultural de La Candelaria y al residente recuperar un sentido de pertenencia. Así, el mobiliario urbano se convierte en un símbolo de memoria viva, donde la historia de los esmeralderos y la voz de la comunidad se integran en la experiencia diaria de la ciudad.",
-      imagen1: "/candelaria.jpeg",
+      imagen1: `${import.meta.env.BASE_URL}candelaria.jpeg`,
       imagen2: ""
     },
     "kennedy": {
