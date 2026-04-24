@@ -51,7 +51,7 @@ export default function Map() {
     "suba": {
       titulo: "Suba",
       texto: "Suba es una localidad marcada por la historia de los pueblos indígenas que le dieron nombre y sentido. Su identidad está profundamente ligada al agua: humedales, quebradas y lagunas que han sido fuente de vida y memoria para generaciones.\n \n La Silla de la Memoria de Suba busca honrar esa raíz ancestral y ecológica. Diseñada como un punto de encuentro, combina elementos gráficos inspirados en símbolos indígenas con materiales que evocan la relación con el agua. \n \n Este proyecto se alinea con el POT Bogotá Reverdece 2022–2035, que plantea la creación de “Ciudades de 15 minutos”. La silla ofrece confort y vitalidad urbana en el mismo territorio, sin necesidad de desplazarse al centro. Además, responde a la Estructura Ecológica Principal, fortaleciendo la conexión entre habitantes y naturaleza, y visibilizando la importancia de los humedales como patrimonio ambiental y cultural. \n \n Más que un objeto, la silla es un símbolo: un espacio para descansar, recordar y reconocerse en la diversidad de Bogotá. Con ella, Suba se convierte en el primer capítulo de una red de mobiliario urbano que activa la memoria y el sentido de pertenencia en cada localidad.",
-      imagen1: `${import.meta.env.BASE_URL}suba.jpeg`,
+      imagen1: "/lamemoriasehabita/suba.jpeg",
   imagen2: `${import.meta.env.BASE_URL}subaFigura.jpeg`,
     },
     "candelaria": {
